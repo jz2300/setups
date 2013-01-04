@@ -1,0 +1,7 @@
+#!/bin/bash
+
+scim -d
+export XMODIFIERS=@im=SCIM
+export GTK_IM_MODULE=scim-bridge
+export QT_IM_MODULE=scim-bridge
+export QT4_IM_MODULE=scim-bridge
