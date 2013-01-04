@@ -1,8 +1,9 @@
 #!/bin/bash
 
+scim -f socket -c socket -d
 #the following line cause konsole hang (i.e. no response to keyboard) after open-and-close a X11 program
-#export XMODIFIERS=@im=SCIM
+export XMODIFIERS=@im=SCIM
 
-export GTK_IM_MODULE=scim-bridge
-export QT_IM_MODULE=scim-bridge
-export QT4_IM_MODULE=scim-bridge
+export GTK_IM_MODULE=scim
+export QT_IM_MODULE=scim
+export QT4_IM_MODULE=scim
