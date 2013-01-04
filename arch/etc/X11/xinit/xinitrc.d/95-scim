@@ -1,7 +1,8 @@
 #!/bin/bash
 
-scim -d
-export XMODIFIERS=@im=SCIM
+#the following line cause konsole hang (i.e. no response to keyboard) after open-and-close a X11 program
+#export XMODIFIERS=@im=SCIM
+
 export GTK_IM_MODULE=scim-bridge
 export QT_IM_MODULE=scim-bridge
 export QT4_IM_MODULE=scim-bridge
