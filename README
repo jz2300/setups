@@ -1,0 +1,6 @@
+./arch/etc/X11/xinit/xinitrc.d/95-scim
+./arch/etc/default/grub
+20-nvidia.conf
+
+./general/.bashrc
+./general/.vimrc

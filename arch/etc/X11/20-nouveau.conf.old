@@ -1,0 +1,7 @@
+Section "Device"
+    Identifier "Nvidia card"
+    Driver "nouveau"
+    Option "GLXVBlank" "true"
+    BusId "PCI:01:00:0"
+EndSection
+
