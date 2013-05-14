@@ -1,0 +1,17 @@
+
+### server side
+ssh git@example.com
+mkdir my_project.git
+cd my_project.git
+git init --bare
+git update-server-info # If planning to serve via HTTP
+exit
+
+
+### client side
+cd my_project
+git init
+git add *
+git commit -m "My initial commit message"
+git remote add origin git@example.com:my_project.git
+git push -u origin master
